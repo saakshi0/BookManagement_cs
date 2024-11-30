@@ -732,5 +732,29 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1117"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk=\u0022"},{"Name":"Last-Modified","Value":"Thu, 28 Nov 2024 16:11:54 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/amazonBooks/pdfs/893d2b2b-39b1-496b-bb33-113745550bdd.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\pdfs\893d2b2b-39b1-496b-bb33-113745550bdd.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-fQhXmuY8ML8n74tgnBfk41tjgfWLAyh\u002BvuI82pwKwHI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"8756490"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022fQhXmuY8ML8n74tgnBfk41tjgfWLAyh\u002BvuI82pwKwHI=\u0022"},{"Name":"Last-Modified","Value":"Fri, 29 Nov 2024 16:15:40 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/amazonBooks/pdfs/893d2b2b-39b1-496b-bb33-113745550bdd.xf8rdesjt8.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\pdfs\893d2b2b-39b1-496b-bb33-113745550bdd.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xf8rdesjt8"},{"Name":"integrity","Value":"sha256-fQhXmuY8ML8n74tgnBfk41tjgfWLAyh\u002BvuI82pwKwHI="},{"Name":"label","Value":"_content/amazonBooks/pdfs/893d2b2b-39b1-496b-bb33-113745550bdd.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"8756490"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022fQhXmuY8ML8n74tgnBfk41tjgfWLAyh\u002BvuI82pwKwHI=\u0022"},{"Name":"Last-Modified","Value":"Fri, 29 Nov 2024 16:15:40 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/amazonBooks/pdfs/e85ed3f7-f3ee-46d8-8e28-aecd6a7d821e.0kstdhtgmq.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\pdfs\e85ed3f7-f3ee-46d8-8e28-aecd6a7d821e.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"0kstdhtgmq"},{"Name":"integrity","Value":"sha256-MOlBWKqKgtvpLcvs2Q0pksVaY8bMlYPyBJc6vYJzSmU="},{"Name":"label","Value":"_content/amazonBooks/pdfs/e85ed3f7-f3ee-46d8-8e28-aecd6a7d821e.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"452943"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022MOlBWKqKgtvpLcvs2Q0pksVaY8bMlYPyBJc6vYJzSmU=\u0022"},{"Name":"Last-Modified","Value":"Fri, 29 Nov 2024 16:04:05 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/amazonBooks/pdfs/e85ed3f7-f3ee-46d8-8e28-aecd6a7d821e.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\pdfs\e85ed3f7-f3ee-46d8-8e28-aecd6a7d821e.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-MOlBWKqKgtvpLcvs2Q0pksVaY8bMlYPyBJc6vYJzSmU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"452943"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022MOlBWKqKgtvpLcvs2Q0pksVaY8bMlYPyBJc6vYJzSmU=\u0022"},{"Name":"Last-Modified","Value":"Fri, 29 Nov 2024 16:04:05 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
   </ItemGroup>
 </Project>

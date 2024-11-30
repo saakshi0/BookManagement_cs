@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("amazonBooks")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+05822ac48079f5bf0b8710ad52782f1513717a79")]
 [assembly: System.Reflection.AssemblyProductAttribute("amazonBooks")]
 [assembly: System.Reflection.AssemblyTitleAttribute("amazonBooks")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

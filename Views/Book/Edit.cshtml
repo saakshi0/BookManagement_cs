@@ -1,21 +1,33 @@
 @model BooksEntity
 
-<h2>Edit Book</h2>
-
-<form asp-action="Edit">
-    <input type="hidden" asp-for="Id" />
+<form asp-action="Edit" enctype="multipart/form-data" method="post">
     <div>
-        <label asp-for="Title"></label>
+        <label for="Title">Title</label>
         <input asp-for="Title" />
     </div>
     <div>
-        <label asp-for="Author"></label>
+        <label for="Author">Author</label>
         <input asp-for="Author" />
     </div>
     <div>
-        <label asp-for="ISBN"></label>
+        <label for="ISBN">ISBN</label>
         <input asp-for="ISBN" />
     </div>
+
+    @if (Model.PdfContent != null)
+    {
+        <div>
+            <label>Existing PDF:</label>
+            <a asp-action="ViewPdf" asp-route-id="@Model.Id">View PDF</a>
+        </div>
+    }
+
+    <div>
+        <label for="PdfContent">Upload New PDF</label>
+        <input type="file" id="PdfContent" name="PdfContent" />
+    </div>
+
     <button type="submit">Save</button>
-    <a asp-action="Index">Cancel</a>
+    <a asp-action="Index" asp-controller="Books" class="btn btn-secondary">Cancel</a>
+
 </form>

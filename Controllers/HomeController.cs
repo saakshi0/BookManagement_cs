@@ -28,4 +28,16 @@ public class HomeController : Controller
     {
         return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
     }
+
+    public IActionResult ViewPdf(string filePath)
+    {
+        var allowedDirectories = new[] { @"C:\MyPDFs", @"D:\MorePDFs" };
+        if (!allowedDirectories.Any(dir => filePath.StartsWith(dir)) || !System.IO.File.Exists(filePath))
+        {
+            return NotFound("File not found.");
+        }
+
+        return File(System.IO.File.ReadAllBytes(filePath), "application/pdf");
+    }
+
 }
